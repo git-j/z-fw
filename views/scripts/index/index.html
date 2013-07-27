@@ -1,0 +1,15 @@
+<?js include('helpers/head.html');?>
+<!-- client include scripts - suggestion
+<script src="/js/script1.js" type="text/javascript"></script>
+<script src="/js/script2.js" type="text/javascript"></script>
+-->
+<!-- client view-script - suggestion -->
+<script  type="text/javascript">
+// do.something();
+</script>
+<a href="/about/">about</a>
+<a href="/?param1=1&param2=2">parameters in query string</a>
+<?js return self.response; ?>
+param1: <?js return self.param1; ?>
+param2: <?js return self.param2; ?>
+<?js include('helpers/foot.html');?>
