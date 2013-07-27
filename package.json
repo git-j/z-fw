@@ -1,0 +1,32 @@
+{
+    "name": "z-fw",
+    "description": "minimalistic zend-like node.js application framework",
+    "version": "0.0.1",
+    "main": "./index.js",
+    "homepage": "https://github.com/git-j/z-fw",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/git-j/z-fw.git"
+    },
+    "author": {
+        "name": "git-j",
+        "email": "joerg+git-j@refeus.de",
+        "url": "https://github.com/git-j/"
+    },
+    "keywords": [
+        "framework",
+        "mvc",
+        "template",
+        "routing"
+    ],
+    "main": "./server.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "dependencies": {
+        "jquery":"*"
+    },
+    "scripts": {
+        "start": "node server.js"
+    }
+}
