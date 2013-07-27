@@ -2,14 +2,13 @@ z-fw
 ====
 
 php-zend inspired node "framework" for serving webpages in MVC style.
-z-fw Service
 
 start a zend-like enviroment that serves webpages
 
   npm install (installs jquery)
   npm start (runs the server)
 
-reloads controlle&view-files when a request is made
+reloads controlle&view-files when a request is made. new controllers and views can be added easily without updating the server code
 can be customized and extended
 
 
