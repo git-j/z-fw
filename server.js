@@ -325,8 +325,9 @@ zfwService.prototype.routeFile = function (/*JSObject*/ response, /*STRING*/ fil
       response.writeHeader(200, {'Content-Type': content_type});
       response.write(data_file, "binary");
       response.end();
+      delete data_file;
       // console.log('static', full_path);
-      dfd.resolve(data_file);
+      dfd.resolve();
     });
   });
   return dfd.promise();
